@@ -19,7 +19,7 @@ function addSms() {
   </header>
 
   <div v-if="store.count === 0" class="text-center mb-3">Add SMS contacts</div>
-  <div v-else>
+  <div v-else class="max-h-[calc(100vh-468px)]">
     <ul class="divide-y flow-root">
       <li v-for="sms in store.list" class="p-3 font-semibold">
         {{ sms.name }}

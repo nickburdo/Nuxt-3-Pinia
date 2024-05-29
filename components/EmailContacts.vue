@@ -19,7 +19,7 @@ function addEmail() {
   </header>
 
   <div v-if="store.count === 0" class="text-center mb-3">Add email contacts</div>
-  <div v-else>
+  <div v-else class="max-h-[calc(100vh-468px)]">
     <ul class="divide-y flow-root">
       <!-- Iterating over the list of email contacts in the store -->
       <li v-for="email in store.list" class="p-3 font-semibold">

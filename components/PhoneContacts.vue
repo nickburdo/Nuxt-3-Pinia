@@ -19,7 +19,7 @@ function addPhone() {
   </header>
 
   <div v-if="store.count === 0" class="text-center mb-3">Add phone contacts</div>
-  <div v-else>
+  <div v-else class="max-h-[calc(100vh-468px)]">
     <ul class="divide-y flow-root">
       <li v-for="phone in store.list" class="p-3 font-semibold">
         {{phone.name}}
