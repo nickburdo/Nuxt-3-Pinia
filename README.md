@@ -63,6 +63,10 @@ export default defineNuxtConfig({
 })
 ```
 
+### Install Faker.js for generating random values
+```npm
+npm install @faker-js/faker --save-dev
+```
 
 ## Setup
 
